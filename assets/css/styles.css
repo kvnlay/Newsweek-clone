@@ -1,0 +1,11 @@
+section{
+ height: 500px;
+}
+
+.container{
+    max-width: 90%;
+}
+
+.navbar{
+    width: 100%;
+}
