@@ -1,5 +1,6 @@
 body {
-	background: #f2f2f2;
+    background: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
 }
 header, main, footer{
 	background: #fff;
@@ -34,6 +35,10 @@ section:last-child{
 img{
     vertical-align: middle;
     height: auto;
+}
+
+.hidden{
+    display: none;
 }
 
 /* header */
