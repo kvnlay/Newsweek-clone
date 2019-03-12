@@ -23,6 +23,14 @@ h4 {
     letter-spacing: 0.05em;
 }
 
+section{
+    margin-bottom: 30px;
+}
+
+section:last-child{
+    margin: 0;
+}
+
 img{
     vertical-align: middle;
     height: auto;
@@ -36,7 +44,11 @@ img{
     padding: 20px 10px 15px;
 }
 .container{
-    max-width: 97%;
+    max-width: 90%;
+}
+
+.navbar{
+    margin-bottom: 0;
 }
 .nav-item{
 	list-style: none;
@@ -47,7 +59,7 @@ img{
 }
 .nav-search{
 	border: none;
-	width: 50px;
+	width: 52px;
     height: 30px;
     margin: 0 10px 0 20px;
 }
@@ -87,7 +99,7 @@ img{
     color: #000;
 }
 
-.featured-stories img, .editors-pick img, .slideshow img, .section-cat img{
+.featured-stories img, .editors-pick img, .slideshow img, .section-cat img, .features img{
 	width: 100%;
 }
 
@@ -144,10 +156,13 @@ img{
 
 h2.section-heading{
     text-align: center;
-
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #333;
 }
 .sec-line{
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #d9d9d9;
     margin-bottom: 20px;
 }
 .section-cat{
@@ -196,6 +211,34 @@ h2.section-heading{
 
 .slideshow article{
     padding-bottom: 40px;
+}
+
+/* ======================= */
+/* FEATURES STYLES*/
+/* ======================= */ 
+.features article{
+    margin: 20px 0;
+}
+
+.features article .feature-category{
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.features article .feature-category span.mag-cat{
+    padding: 0 7px;
+    background-color: #f72210;
+    color: #fff;
+    margin-right: 7px;
+}
+
+.features article h5{
+    text-transform: capitalize;
+    font-size: 1.1em;
 }
 
 
