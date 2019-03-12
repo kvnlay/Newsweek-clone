@@ -6,9 +6,10 @@ header, main, footer{
 	margin-bottom: 2px;
 }
 h2 {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
     font-weight: 600;
     color: rgba(3,3,3,.4);
+    text-transform: uppercase;
 }
 h3 {
 	font-size: 1.4rem;
@@ -17,8 +18,9 @@ h3 {
 }
 h4 {
 	font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: 1000;
     color: #000;
+    letter-spacing: 0.05em;
 }
 
 img{
@@ -31,14 +33,10 @@ img{
 	background: #f72210;
 	color: #fff;
     height: 95px;
-    padding: 20px 10px 15px;}
-
+    padding: 20px 10px 15px;
+}
 .container{
     max-width: 97%;
-}
-
-.navbar{
-    /*width: 100%;*/
 }
 .nav-item{
 	list-style: none;
@@ -75,6 +73,11 @@ img{
 
 /* container */
 
+.top-section{
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
 .article-bottom {
 	border-top: 1px solid #dedede;
     border-bottom: 1px solid #dedede;
@@ -110,6 +113,31 @@ img{
     display: table-cell;
     border-radius: 50%;
 }
+
+.more-stories{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+    margin: 0 5px;
+}
+.more-stories-hd{
+    margin-left: 5px;
+}
+.more-stories-img{
+    padding: 0;
+}
+.more-stories img{
+    width: 100%;
+}
+.latest-news{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+}
+.latest-news img{
+    width: 100%;
+}
+
 /* ======================= */
 /* MAGAZINE STYLES*/
 /* ======================= */ 
