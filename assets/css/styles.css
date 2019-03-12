@@ -99,3 +99,55 @@ img {
 	border-radius: 50%;
 	background: url(../images/opinion-headshot-bg.png) center no-repeat #f72210;
 }
+
+/* ======================= */
+/* footer styles */
+/* ======================= */ 
+
+.footer-top{
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
+    padding: 20px 0 10px 0;
+}
+
+.social-icon{
+    color: #666;
+    text-align: right;
+}
+.social-icon i{
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.footer-links{
+    margin-top: 20px;
+}
+
+.footer-links li{
+    display: inline;
+}
+
+.footer-links ul{
+    padding-left: 0;
+}
+
+.leaf{
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+    font-size: .8em;
+}
+
+.footer-links li a{
+    color: gray;
+}
+.last{
+    border: none;
+}
+
+.trademark{
+    vertical-align: bottom;
+}

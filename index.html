@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Newsweek clone</title>
@@ -622,38 +622,48 @@
         </section>
     </main>
     <footer class="container">
-        <div class="row footer-top">
-            <div class="col-md-8">
-                <img src="" alt="logo">
-                <span>© 2019 Newsweek</span>
+        <div class="row footer-top justify-content-between">
+            <div class="col-md-8 col-sm-12">
+                <img class="footer-logo" src="assets/images/footerlogo.png" alt="logo">
+                <span class="trademark">© 2019 Newsweek</span>
             </div>
-            <div class="col-md-4 social-icon">
-                
+            <div class="col-md-4 col-sm-12 social-icon align-self-end">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fas fa-envelope-square"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-tumblr"></i>
             </div>
         </div>
         <div class="row footer-links">
-            <div class="col-md-7">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+            <div class="col-lg-7 col-md-12">
+                <ul>
+                    <li class="leaf"><a href="#">About Us</a></li>
+                    <li class="leaf"><a href="#">Corrections</a></li>
+                    <li class="leaf"><a href="#">Contact Us</a></li>
+                    <li class="leaf"><a href="#">Editorial Guidelines</a></li>
+                    <li class="leaf"><a href="#">Advertise</a></li>
+                    <li class="leaf"><a href="#">Copyright</a></li>
+                    <li class="leaf"><a href="#">Terms and Conditions</a></li>
+                    <li class="leaf"><a href="#">Privacy Policy</a></li>
+                    <li class="leaf"><a href="#">Cookie Policy</a></li>
+                    <li class="leaf"><a href="#">Terms of Sale</a></li>
+                    <li class="leaf"><a href="#">Archive</a></li>
+                    <li class="leaf"><a href="#">Announcements</a></li>
+                    <li class="leaf"><a href="#">Constant preferences</a></li>
+                </ul>
+                
             </div>
-            <div class="col-md-4 offset-md-1">
+            <div class="col-lg-5 col-md-12 ">
                 <span>Editions: </span>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <a class="leaf" href="#">U.S Edition</a>
+                <a class="leaf" href="#">Middle East</a>
+                <a class="leaf" href="#">日本</a>
+                <a class="leaf" href="#">한국</a>
+                <a class="leaf" href="#">Pakistan</a>
+                <a class="leaf" href="#">Polska</a>
+                <a class="last leaf" href="#">Romania</a>
             </div>
         </div>
     </footer>
