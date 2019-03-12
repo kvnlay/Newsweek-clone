@@ -43,7 +43,7 @@ img{
 .nav-item{
 	list-style: none;
     border-right: 1px solid #dedede;
-    padding: 0 24px;
+    padding: 0 1.3vw;
     font-weight: 700;
     font-size: 1.2em;
 }
@@ -88,15 +88,27 @@ img{
 	width: 100%;
 }
 
+.opinion{
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 15px; 
+}
+
 .opinion p {
 	font-size: 0.8rem;
     font-weight: 600;
     color: #aaa;
 }
-
+.opinion-img{
+    padding: 0 0 0 15px;
+}
 .red{
-	border-radius: 50%;
-	background: url(../images/opinion-headshot-bg.png) center no-repeat #f72210;
+    background: #f72210;
+    text-align: center;
+    vertical-align: middle;
+    width: 63px;
+    height: 63px;
+    display: table-cell;
+    border-radius: 50%;
 }
 /* ======================= */
 /* MAGAZINE STYLES*/
