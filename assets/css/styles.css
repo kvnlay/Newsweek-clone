@@ -21,6 +21,11 @@ h4 {
     color: #000;
 }
 
+img{
+    vertical-align: middle;
+    height: auto;
+}
+
 /* header */
 .header-top{
 	background: #f72210;
@@ -49,9 +54,6 @@ h4 {
     margin: 0 10px 0 20px;
 }
 
-.section-cat{
-    margin-bottom: 20px;
-}
 .date{
 	padding-top: 27px;
 }
@@ -96,6 +98,66 @@ h4 {
 	border-radius: 50%;
 	background: url(../images/opinion-headshot-bg.png) center no-repeat #f72210;
 }
+/* ======================= */
+/* MAGAZINE STYLES*/
+/* ======================= */ 
+
+h2.section-heading{
+    text-align: center;
+
+}
+.sec-line{
+    border-bottom: 1px solid #666;
+    margin-bottom: 20px;
+}
+.section-cat{
+    padding: 5px 0;
+}
+
+.spc-btw{
+    justify-content: space-between;
+}
+
+.pick-right{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pick-right:first-child{
+    padding-top: 0;
+}
+
+.lines{
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.section-pick-head{
+    border-top: 1px solid #d9d9d9;
+    padding-top: 25px;
+    
+}
+
+.section-pick-head h2{
+    color: #f72210;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: Capitalize;
+}
+
+
+/* ======================= */
+/* SLIDESHOW STYLES*/
+/* ======================= */ 
+
+.slideshow img{
+    margin-bottom: 20px;
+}
+
+.slideshow article{
+    padding-bottom: 40px;
+}
+
 
 /* ======================= */
 /* footer styles */
